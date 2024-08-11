@@ -10,10 +10,10 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  server: {
-    host: '192.168.0.143', // Listen on all IP addresses
-    port: 3000,      // Specify the port
-  },
+  // server: {
+  //   host: '192.168.0.143', // Listen on all IP addresses
+  //   port: 3000,      // Specify the port
+  // },
   resolve: {
     
     alias: {
